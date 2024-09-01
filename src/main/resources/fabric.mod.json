@@ -19,6 +19,9 @@
 		],
 		"fabric-datagen": [
 			"com.gunswor.tutorialmod.TutorialModDataGenerator"
+		],
+		"client": [
+			"com.gunswor.tutorialmod.TutorialModClient"
 		]
 	},
 	"mixins": [
