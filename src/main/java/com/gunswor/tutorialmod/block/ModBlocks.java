@@ -10,8 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block AQUAMARINE_BLOCK = register("aquamarine_block", new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
-    public static final Block AQUAMARINE_ORE = register("aquamarine_ore", new Block(AbstractBlock.Settings.create().strength(4.5f, 6.0f)));
+    public static final Block AQUAMARINE_BLOCK = register("aquamarine_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(5.0f, 6.0f)));
+    public static final Block AQUAMARINE_ORE = register("aquamarine_ore", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
     public static void registerBlockItems(String id, Block block){
         Item item = Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, id), new BlockItem(block, new Item.Settings()));
         if (item instanceof BlockItem) {
