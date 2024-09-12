@@ -16,6 +16,7 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.AQUAMARINE, "蓝晶");
+        translationBuilder.add(ModItems.SWEET_NOODLE_SAUCE, "甜面酱");
         translationBuilder.add(ModBlocks.AQUAMARINE_BLOCK, "蓝晶块");
         translationBuilder.add(ModBlocks.AQUAMARINE_ORE, "蓝晶矿");
         translationBuilder.add("item.tutorialmod_group", "教学组");

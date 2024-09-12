@@ -16,6 +16,7 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.AQUAMARINE, "Aquamarine");
+        translationBuilder.add(ModItems.SWEET_NOODLE_SAUCE, "Sweet noodle sauce");
         translationBuilder.add(ModBlocks.AQUAMARINE_BLOCK, "Aquamarine Block");
         translationBuilder.add(ModBlocks.AQUAMARINE_ORE, "Aquamarine Ore");
         translationBuilder.add("item.tutorialmod_group", "Tutorial Group");

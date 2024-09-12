@@ -17,6 +17,7 @@ public class ModItemGroups {
                 .icon(()-> new ItemStack(ModItems.AQUAMARINE))
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.AQUAMARINE);
+                    entries.add(ModItems.SWEET_NOODLE_SAUCE);
                     entries.add(ModBlocks.AQUAMARINE_BLOCK);
                     entries.add(ModBlocks.AQUAMARINE_ORE);
                 }).build());
