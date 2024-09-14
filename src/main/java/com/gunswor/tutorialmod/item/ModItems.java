@@ -11,8 +11,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item AQUAMARINE = registerItem("aquamarine", new Item(new Item.Settings()));
-
     public static final Item SWEET_NOODLE_SAUCE = registerItem("sweet_noodle_sauce", new Item(new Item.Settings().food(ModFoodComponents.SWEET_NOODLE_SAUCE)));
+    public static final Item ANTHRACITE = registerItem("anthracite", new Item(new Item.Settings()));
     private static Item registerItem(String id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, id), item);
     }

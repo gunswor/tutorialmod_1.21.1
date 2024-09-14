@@ -3,7 +3,10 @@
 	"package": "com.gunswor.tutorialmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"AbstractFurnaceBlockEntityMixin",
+		"EndermanEntityMixin",
+		"ExampleMixin",
+		"GrassColorsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

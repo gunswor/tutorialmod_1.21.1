@@ -3,8 +3,10 @@ package com.gunswor.tutorialmod;
 import com.gunswor.tutorialmod.block.ModBlocks;
 import com.gunswor.tutorialmod.item.ModItemGroups;
 import com.gunswor.tutorialmod.item.ModItems;
+import com.gunswor.tutorialmod.mixin.GrassColorsMixin;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +26,14 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroup();
 		ModBlocks.registerModBlocks();
+
+//		int[] colorMap = GrassColorsMixin.getColorMap();
+//		LOGGER.info("Grass color map length: {}", colorMap.length);
+//		GrassColorsMixin.setColorMap(ColorMap);
+//		LOGGER.info("Grass color map length after setting: {}", GrassColorsMixin.getColorMap().length);
+
+
+//		FuelRegistry.INSTANCE.add(ModItems.ANTHRACITE, 2000);
 
 		LOGGER.info("Hello Fabric world!");
 	}

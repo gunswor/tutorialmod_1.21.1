@@ -1,9 +1,10 @@
-// 1.21.1	2024-09-11T20:34:50.7700984	TutorialMod/Model Definitions
+// 1.21.1	2024-09-12T20:58:36.7675922	TutorialMod/Model Definitions
 5ba579d98ce26ef6849a5407c4ab92b517f3fa01 assets\tutorialmod\blockstates\aquamarine_block.json
 29b7a050db63ac69b6b9337012fdcfe7243df29f assets\tutorialmod\models\item\sweet_noodle_sauce.json
 881075ecc623b03aeebce6a0baf9ad76265102b7 assets\tutorialmod\blockstates\aquamarine_ore.json
 b4c1ac7dadf2a96f91b3ca0df5084a21c59b35b5 assets\tutorialmod\models\item\aquamarine.json
 a1e70d85c345e4ec789bdc4da7545688b747e4d8 assets\tutorialmod\models\item\aquamarine_block.json
+511ca2acda508aba33110458010a081dfc6aa30e assets\tutorialmod\models\item\anthracite.json
 7ed13eab37100a1af7991d5737cd1ea09abd53ab assets\tutorialmod\models\block\aquamarine_ore.json
 c638f7cf682642d4103da21f2889449a54a1c20f assets\tutorialmod\models\item\aquamarine_ore.json
 981188b2a3b0e62444db65c3f4edb40a692b3701 assets\tutorialmod\models\block\aquamarine_block.json
